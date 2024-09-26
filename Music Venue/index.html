@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Music Venu</title>
+    <script type="text/javascript" src="JQuery.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <h1> MUSIC VENUE</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#booking">Booking Info</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h1> Welcome to The River North</h1>
+        <div class="buttons">
+            <button type="button">Calender</button>
+            <button type="button">Tickets</button>
+        </div>
+    </section>
+    <section class="events">       
+         <h1> Upcoming Events</h1>
+         <hr class="rounded">
+         <ul id="event-list">
+            <li>
+                <h2>Open Mic Music</h2>
+                <h3>Every Monday</h3>
+                <p> Join us every week for our open mic music night!</p>
+            </li>
+            <li>
+                <h2>Open Mic Comedy</h2>
+                <h3>Every Wednesday</h3>
+                <p>Join us every week for our open mic comedy night!</p>
+            </li>
+            <li>
+                <h2>The Oneders</h2>
+                <h3>Oct. 12th, 2024</h3>
+                <p> The band from that movie you may have saw. I cant believe they are real</p>
+            </li>
+            <li>
+                <h2>Alvin & the Chipmunks</h2>
+                <h3> Nov. 06, 2024</h3>
+                <p> You will want to skip this one.</p>
+            </li>
+            <li>
+                <h2>Christmas Market</h2>
+                <h3> Dec. 15, 2024</h3>
+                <p> Puruse and Buy gifts from a variety of local shops and enjoy live music and drink specials!</p>
+            </li>
+        </ul>
+    </section>
+    <section class="request">
+        <h1>Want to see your favorite artist play here? <br>
+        Submit your artist request and we will try to book them!</h1>
+        <form id="reviewForm">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="artist">Artist Name:</label>
+            <input type="text" id="artist" name="artist" required>
+            
+            <button type="submit">Submit Request</button>
+        </form>
+        <div id="message"></div>
+    </section>
+</body>
+<script src="script.js"></script>
+
+</html>
