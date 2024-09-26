@@ -47,6 +47,7 @@ nav ul li a:hover {
     height: 80vh;
     background: url(/Images/therino.jpeg) center;
     text-align: center;
+    transition: background-image 0.5s ease;
 }
 
 .hero h1 {

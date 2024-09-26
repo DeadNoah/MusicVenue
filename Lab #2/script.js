@@ -21,4 +21,16 @@
                     }
                 });
             });
-            
+    
+
+    
+            $(document).ready(function() {
+                $('.hero').hover(
+                  function() {
+                    $(this).css('background-image', 'url(/Images/show.jpeg)');
+                  },
+                  function() {
+                    $(this).css('background-image', 'url(/Images/therino.jpeg)');
+                  }
+                );
+              });
