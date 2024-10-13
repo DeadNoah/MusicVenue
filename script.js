@@ -36,24 +36,4 @@
             });
 
 
-            $(document).ready(function() {
-                let index = 0;
-              
-                function updateSlider() {
-                  $('.slider').css('transform', `translateX(${-index * 100}%)`);
-                  $('.prev').prop('disabled', index === 0);
-                  $('.next').prop('disabled', index === 2);
-                }
-              
-                $('.next').click(function () {
-                  if (index < 2) index++;
-                  updateSlider();
-                });
-              
-                $('.prev').click(function () {
-                  if (index > 0) index--;
-                  updateSlider();
-                });
-              
-                updateSlider();
-              });
+           
