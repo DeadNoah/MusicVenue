@@ -1,0 +1,161 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background: url(/Images/therino.jpeg) center;
+    text-align: center;
+    transition: background-image 0.5s ease;
+}
+
+.hero h1 {
+    font-size: 3.5em;
+    color: white;
+    min-width: 300px;
+    padding: 0;
+    margin: 0;
+}
+
+.hero button {
+    border: 2px solid white;
+    background: none;
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+    font-size: 1.5em;
+    color: white;
+    padding: 5px 10px;
+    margin: 40px 20px;
+    cursor: pointer
+}
+
+.events {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.events h1 {
+    margin: 40px;
+}
+
+.event {
+    min-width: 500px;
+    width: 50vw;
+    border-radius: 5px;
+    border: 5px solid black;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.event h2 {
+    margin: 0 0 10px;
+}
+
+.event p {
+    margin: 0;
+}
+
+li {
+    width: 70%;
+    margin: 20px auto;
+}
+
+ul {
+    list-style: none;
+}
+
+.grey {
+    background-color: grey;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+hr.rounded {
+    border-top: 5px solid black;
+    border-radius: 5px;
+    width: 70%;
+    min-width: 500px;
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .request {
+    padding: 25px;
+    min-width: 75%;
+    max-width: 75%;
+    margin: auto;
+    background-color: #999;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .request h1 {
+    min-width: 400px;
+  }
+
+  input, textarea {
+    width: 75%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
