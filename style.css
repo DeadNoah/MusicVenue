@@ -5,9 +5,7 @@
 }
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
 }
-
 
 header {
     display: flex;
@@ -193,7 +191,7 @@ button {
     background-color: #555;
   }
   
-  button:disabled {
+    button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
   }
