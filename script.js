@@ -33,10 +33,10 @@
                     $(this).css('background-image', 'url(Images/therino.jpeg)');
                   }
                 );
-              });
+            });
 
 
-              $(document).ready(function () {
+            $(document).ready(function() {
                 let index = 0;
               
                 function updateSlider() {
