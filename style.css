@@ -178,7 +178,7 @@ button {
     flex-shrink: 0;
   }
   
-  .gallery button {
+  button {
     background-color: #333;
     color: #fff;
     border: none;
@@ -188,11 +188,11 @@ button {
     transition: background-color 0.3s;
   }
   
-  .gallery button:hover {
+  button:hover {
     background-color: #555;
   }
   
-  .gallery button:disabled {
+  button:disabled {
     opacity: 0.5;
     cursor: not-allowed;
   }
