@@ -72,3 +72,30 @@
           autoPlay = setInterval(nextImage, 3000);
         });
       });
+
+
+      $(document).ready(function() {
+        const faqs = {
+            "What time do doors open?": "Doors open at 7:00 PM for most events, but please check the event page for specific times.",
+            "Can I buy tickets at the door?": "Yes, tickets are usually available at the door, but we recommend purchasing online to guarantee entry.",
+            "Where is the venue located?": "The Rino is located at 314 Armour Rd, North Kansas City.",
+            "Is there free parking?": "There is free street parking along Armour Rd and there is parking available behind the venue."
+        };
+    
+        $.each(faqs, function(question, answer) {
+            $('#accordion').append(
+                `<div class="faq-item">
+                    <div class="faq-question">${question}</div>
+                    <div class="faq-answer">${answer}</div>
+                </div>`
+            );
+        });
+    
+        $('.faq-question').on('click', function() {
+            const answer = $(this).next('.faq-answer');
+    
+           
+            $('.faq-answer').not(answer).slideUp();
+            answer.slideToggle();
+        });
+    });

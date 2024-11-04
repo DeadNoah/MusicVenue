@@ -192,3 +192,33 @@ button.prev {
 button.next {
     right: 10px;
 }
+
+.faq-container {
+    width: 40%;
+    margin: 20px auto;
+    padding: 15px;
+}
+
+.faq-title {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.faq-item {
+    border: 1px solid #333;
+    margin-bottom: 5px;
+}
+
+.faq-question {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.faq-answer {
+    padding: 10px;
+    background-color: #f9f9f9;
+    display: none;
+}
