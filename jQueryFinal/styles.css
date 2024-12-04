@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+body {
+  margin: 0;
+}
+
+h1 {
+  padding: 20px 10px;
+}
+
+p {
+  padding: 10px 10px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  height: 100px;
+}
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url(/Images/therino.jpeg) center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  transition: background-image 0.5s ease;
+
+}
+
+.hero h1 {
+  font-size: 3.5em;
+  color: white;
+  min-width: 300px;
+  padding: 0;
+  margin: 0;
+}
+
+.Intro {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.checklist {
+  background-color: #e0e0e0;
+  padding: 20px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 50%;
+  text-align: center;
+}
+.checklist ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 300px;
+}
+.checklist ul li {
+  margin: 10px 0;
+}
+.checklist p {
+  margin-top: 20px;
+}
+.checklist .complete {
+  color: green;
+  font-weight: bold;
+}
+.checklist .incomplete {
+  color: red;
+  font-weight: bold;
+}
+
+.faq {
+  width: 50%;
+  margin: 20px auto;
+  background-color: #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.faq h2 {
+  text-align: center;
+}
+.faq .accordion {
+  list-style: none;
+  padding: 0;
+}
+.faq .accordion li {
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.faq .accordion .question {
+  background-color: #ccc;
+  padding: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.faq .accordion .answer {
+  display: none;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+
+.gallery {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: 25px auto;
+  background-color: #ddd;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+.gallery img.active {
+  display: block;
+}
+.gallery .arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  font-size: 30px;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+.gallery .arrow.left {
+  left: 10px;
+}
+.gallery .arrow.right {
+  right: 10px;
+}
+
+.form-container {
+  width: 50%;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.form-container h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+}
+
+.form-container p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.form-container input[type="email"] {
+  padding: 10px;
+  width: 70%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.form-container input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.form-container input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.success-message {
+  display: none;
+  color: green;
+  font-size: 1.2rem;
+  margin-top: 15px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  width: 100%;
+}
+
+.footer-column {
+  width: 45%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 8px;
+}

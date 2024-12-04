@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bearded Dragons</title>
+  <script type="text/javascript" src="JQuery.js"></script>
+  <script type="text/javascript" src="script.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1 class="logo">Bearded Dragons</h1>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#checklist">Checklist</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1> Let's Learn About Bearded Dragons!</h1>
+  </section>  
+
+  <section class="Intro">
+    <h1>Bearded Dragons are unlike any other reptile!</h1>
+    <p> Bearded dragons are personable and very curious animals. As pets, you will find they develop distinct personalities and loving run around to new places around
+      observing things for themselves. They enjoy being in their owners presence and appreciate any and all attention they get! They gain enrichment by playing games and with toys as well!
+    </p>
+  </section>
+
+  <section class="checklist">
+    <h1>Think You Are Ready to Get a Bearded Dragon?</h1>
+    <p> Use this checklist to find out!</p>
+      <ul class="checklist">
+          <li><input type="checkbox" class="item"> Tank (at least 40 gallons)</li>
+          <li><input type="checkbox" class="item"> Basking lamp</li>
+          <li><input type="checkbox" class="item"> UVB light</li>
+          <li><input type="checkbox" class="item"> Thermometer</li>
+          <li><input type="checkbox" class="item"> Hygrometer</li>
+          <li><input type="checkbox" class="item"> Substrate (reptile carpet or safe bedding)</li>
+          <li><input type="checkbox" class="item"> Food and water dishes</li>
+          <li><input type="checkbox" class="item"> Calcium and vitamin supplements</li>
+          <li><input type="checkbox" class="item"> Hides and climbing branches</li>
+      </ul>
+
+    <p id="status" class="incomplete">Missing some items! Please check all the boxes.</p>
+  </section>
+
+  <section class="gallery">
+    <img src="images/g1.jpg" class="active" alt="Image 1">
+    <img src="images/g2.jpg" alt="Image 2">
+    <img src="images/g3.jpg" alt="Image 3">
+    <img src="images/g4.jpg" alt="Image 4">
+    <img src="images/g5.jpg" alt="Image 5">
+    
+    <button class="arrow left">&#9664;</button>
+    <button class="arrow right">&#9654;</button>
+  </section>
+
+  <section class="faq">
+    <h1>Frequently Asked Questions about Bearded Dragons</h1>
+    <ul class="accordion">
+        <li>
+            <div class="question">What size tank does a bearded dragon need?</div>
+            <div class="answer">A bearded dragon needs a tank that is at least 40 gallons for adults. Juveniles can start in smaller tanks but will require larger space as they grow.</div>
+        </li>
+        <li>
+            <div class="question">What should I feed my bearded dragon?</div>
+            <div class="answer">Bearded dragons are omnivores, and their diet should include a variety of leafy greens, vegetables, and insects such as crickets, mealworms, or dubia roaches. You can also offer fruit as a treat.</div>
+        </li>
+        <li>
+            <div class="question">How often should I handle my bearded dragon?</div>
+            <div class="answer">You can handle your bearded dragon daily for short periods, but avoid overhandling them, especially when they are young or adjusting to their environment.</div>
+        </li>
+        <li>
+            <div class="question">Do bearded dragons need UVB lighting?</div>
+            <div class="answer">Yes, bearded dragons need UVB lighting to help them metabolize calcium and prevent health problems like metabolic bone disease. The UVB light should be on for 10-12 hours a day.</div>
+        </li>
+        <li>
+            <div class="question">What temperature should my bearded dragon’s tank be?</div>
+            <div class="answer">Your bearded dragon’s tank should have a basking area with a temperature of 100-110°F (37-43°C) and a cooler side around 75-85°F (24-29°C).</div>
+        </li>
+    </ul>
+</section>
+
+<section class="form-container">
+  <h1>Want to learn more about bearded dragons?</h1>
+  <p>Sign up for our newsletter!</p>
+  <form id="newsletter-form">
+    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+  <div class="success-message">Thank you for signing up! Check your inbox for updates.</div>
+</section>
+<footer>
+  <div class="footer-column">
+      <ul>
+          <li>Noah Sanchez</li>
+          <li>Interactive Scripting: jQuery</li>
+          <li>Final Website Project</li>
+      </ul>
+  </div>
+  <div class="footer-column">
+      <ul>
+          <li>Phone: 816-000-000</li>
+          <li>Email: nsanche9@stumail.com</li>
+          <li>Website: github.io</li>
+      </ul>
+  </div>
+</footer>
+</body>
+</html>
